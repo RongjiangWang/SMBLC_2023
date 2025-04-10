@@ -1,0 +1,42 @@
+# reference time: year month day hour minute second
+# (year - minumte in integer format with the usual convention, second by a real value
+2014 4 1 23 45 49.0
+# earthquake hypocentre: lat[deg] lon[deg] depth[km]
+-19.5764    -70.9037    28.54
+# number of 3c data files, unit of acceleration in m/s^2
+22    1.0
+# column of component
+# east north up
+  1    2     3
+# Note: Length of station name <= 10 characters
+#       Start and P_onset times are relative to the reference time
+#       Data_length is the usable length of data
+#       P_onset = Start + Pre-event window (>= 10s)
+#       Data_length[s] = Pre-event window (P_onset - Start)
+#                      + Strong-motion signal window (~ 2 times rupture duration)
+#                      + Post_event window (~ 30% of signal window or >= 40s)
+#       Sampling_interval: station dependent sampling interval 
+#
+# Station        Lat[deg]       Lon[deg]   Start[s]   P_onset[s] Data_length[s]   Sampling_interval[s]
+  A01            -20.7636       -69.8886    43.0000      83.0500       190.0000                   0.01
+  A02            -18.9633       -70.1981    27.0000      73.4000       220.0000                   0.01
+  A03            -20.4034       -69.6309    36.0000      82.8500       190.0000                   0.01
+  HMBCX          -20.2782       -69.8879    50.0000      78.3000       175.0000                   0.01
+  MNMCX          -19.1311       -69.5955     0.0000      80.0100       240.0000                   0.01
+  PATCX          -20.8207       -70.1529     0.0000      81.6000       230.0000                   0.01
+  PB01           -21.0432       -69.4874     0.0000      89.9500       240.0000                   0.01
+  PB02           -21.3197       -69.8960     0.0000      89.7000       240.0000                   0.01
+  PB03           -22.0485       -69.7531     0.0000      99.0500       270.0000                   0.01
+  PB04           -22.3337       -70.1492     0.0000     100.6000       270.0000                   0.01
+  PB05           -22.8528       -70.2023     0.0000     107.8000       290.0000                   0.01
+  PB06           -22.7058       -69.5719     0.0000     109.2000       290.0000                   0.01
+  PB07           -21.7267       -69.8862     0.0000      94.4000       250.0000                   0.01
+  PB08           -20.1411       -69.1534     0.0000      86.8800       230.0000                   0.01
+  PB09           -21.7964       -69.2419     0.0000     101.1000       270.0000                   0.01
+  PB10           -23.5134       -70.5541     0.0000     114.5100       310.0000                   0.01
+  PB11           -19.7610       -69.6558     0.0000      78.1000       230.0000                   0.01
+  PB12           -18.6141       -70.3281     0.0000      76.7000       250.0000                   0.01
+  PB15           -23.2083       -69.4709     0.0000     115.5000       300.0000                   0.01
+  PB16           -18.3351       -69.5077     0.0000      86.4000       260.0000                   0.01
+  PSGCX          -19.5972       -70.1231     0.0000      70.2400       230.0000                   0.01
+  TA01           -20.5656       -70.1807     0.0000      78.4500       220.0000                   0.01
