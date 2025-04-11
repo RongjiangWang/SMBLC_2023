@@ -7,3 +7,5 @@ For Windows user, the executable file is provided under folder "WindowsEXE". Lin
 to get the excutable code smblc.
 
 After start the executable code, the program ask for an input file in the ASCII format. An example input file is provided under folder "InputFile". You may change the input data included in this file for your own applications.
+
+For more details, please see the enclosed Update_Method.pdf.
