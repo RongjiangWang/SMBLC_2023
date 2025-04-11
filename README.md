@@ -2,8 +2,8 @@ For Windows user, the executable file is provided under folder "WindowsEXE". Lin
 
 ~>cd .../SourceCode
 
-~>gfortran -o qseis2006 *.f -O3
+~>gfortran -o smblc *.f -O3
 
-to get the excutable code qseis2006.
+to get the excutable code smblc.
 
 After start the executable code, the program ask for an input file in the ASCII format. An example input file is provided under folder "InputFile". You may change the input data included in this file for your own applications.
